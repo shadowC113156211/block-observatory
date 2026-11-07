@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="方塊觀察所：以清楚、可延伸的方式整理 Minecraft 生物與方塊研究筆記。">
+  <title>方塊觀察所｜首頁</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/site.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">▦</span> 方塊觀察所</a>
+    <nav aria-label="主要導覽">
+      <a class="active" href="index.html">首頁</a>
+      <a href="pages/creatures.html">生物圖鑑</a>
+      <a href="pages/blocks.html">方塊筆記</a>
+      <a href="#about">專案介紹</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">A BLOCK-BY-BLOCK FIELD GUIDE</p>
+        <h1>把每一次探索，<br><span>整理成可延伸的知識。</span></h1>
+        <p class="hero-description">這裡是 Minecraft 生物與方塊的研究筆記站。從觀察、分類到設計靈感，讓資料有一致的格式，也讓 AI 能依照同一套規則持續擴充。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="pages/creatures.html">探索生物圖鑑 <span>↗</span></a>
+          <a class="text-link" href="#method">了解整理方式 →</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="像素風方塊景觀插圖">
+        <div class="sun"></div><div class="cloud cloud-one"></div><div class="cloud cloud-two"></div>
+        <div class="mountain mountain-back"></div><div class="mountain mountain-front"></div>
+        <div class="grass-block"><div class="grass-top"></div><div class="dirt"></div></div>
+        <div class="crystal crystal-one"></div><div class="crystal crystal-two"></div>
+        <span class="art-label">FIELD NOTE 001</span>
+      </div>
+    </section>
+
+    <section class="section" id="method">
+      <div class="section-heading">
+        <div><p class="eyebrow">START EXPLORING</p><h2>從兩種資料開始</h2></div>
+        <p>網站先建立固定分類與內容欄位，未來新增條目時，只要依照資料格式填寫即可。</p>
+      </div>
+      <div class="feature-grid">
+        <a class="feature-card creature-card" href="pages/creatures.html">
+          <div class="feature-icon">◈</div><p class="card-kicker">01 / CREATURES</p>
+          <h3>生物圖鑑</h3><p>整理生物的外觀、行為、生成環境與觀察重點。</p><span class="card-arrow">查看圖鑑　↗</span>
+        </a>
+        <a class="feature-card block-card" href="pages/blocks.html">
+          <div class="feature-icon">▧</div><p class="card-kicker">02 / BLOCKS</p>
+          <h3>方塊筆記</h3><p>記錄方塊特性、取得方式、用途與建築搭配想法。</p><span class="card-arrow">查看筆記　↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="quote-band">
+      <p>「先建立一致的整理方式，再讓內容持續長大。」</p>
+      <span>— 方塊觀察所的整理原則</span>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading"><div><p class="eyebrow">ABOUT THIS PROJECT</p><h2>這不只是一個網頁</h2></div></div>
+      <div class="about-grid">
+        <div><h3>專案目的</h3><p>建立一個以 Minecraft 為主題的輕量知識網站，示範如何透過專案規範，讓 AI 能持續新增內容而不破壞既有風格與結構。</p></div>
+        <div><h3>可延伸方向</h3><p>未來可加入合成配方、地形、生態系、模型設計紀錄，甚至把研究筆記整理成 3D 模型製作參考資料。</p></div>
+        <div><h3>技術方式</h3><p>使用原生 HTML、CSS、JavaScript 與 JSON 資料，不需要安裝框架或後端服務，可直接部署至 GitHub Pages。</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand" href="index.html">▦ 方塊觀察所</a><span>個人學習專案 · Minecraft 研究筆記</span><span>Made to grow, one block at a time.</span></footer>
+</body>
+</html>
